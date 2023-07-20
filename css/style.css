@@ -1,0 +1,292 @@
+/* all common css starts here  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    margin: 0 auto;
+    width: 1175px;
+}
+.clr{
+    clear: both;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.mr-0{
+    margin-right: 0 !important;
+}
+/* all common css ends here  */
+
+/* =========header part starts=========  */
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.logo{
+    padding-top: 30px;
+    width: 185px;
+    float: left;
+    
+}
+.menu{
+    width: 990px;
+    float: left;
+    text-align: right;
+
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-left: 30px;
+    line-height: 120px;
+    transition: .4s;
+}
+.menu ul li a:hover{
+    color: #c7b299;
+}
+/* =========header part end=========  */
+
+/* ===========banner part===========  */
+
+#banner{
+    background:url(../images/Waxom-Hemepage-main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner_overlay{
+    padding: 380px 0px;
+    background: hsla(0, 0%, 7%, 0.7);
+}
+.content{
+    text-align: center;
+}
+.content h3{
+    color: #fff;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.content h1{
+    color: #fff;
+    font-size: 52px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    
+}
+.content p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 0 290px;
+    margin-bottom: 50px;
+    
+}
+.content a{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    padding: 22px 39px 18px 37px;   
+    background: #998675; 
+    text-transform: uppercase;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+}
+
+/* ===========banner part End===========  */
+
+/* ==========service part starts=========  */
+
+#service{
+    padding: 80px 0;
+}
+.services_part .services_item{
+    width: 270px;
+    margin-right: 30px;
+    float: left;
+    text-align: center;
+}
+.services_icon i{
+    color: #555555;
+    font-size: 50px;
+    transition: 0.4s;
+}
+.services_text h3{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: #555555;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+.services_text p{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: #8c8c8c;
+    line-height: 24px;
+    position: relative;
+}
+.services_text p::after{
+    width: 70px;
+    height: 3px;
+    background: #f1eee9;
+    content: '';
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.4s;
+}
+.services_item:hover .services_text p::after{
+    background: #c7b299;
+}
+.services_item:hover .services_icon i{
+    color: #c7b299;
+}
+.services_item:hover .services_text h3{
+    color: #c7b299;
+}
+
+/* ==========service part ends=========  */
+
+/* ==========idea part starts=========  */
+#idea_part{
+    background: #fbfaf8;
+    padding-top: 85px;
+}
+.common_text{
+    text-align: center;
+}
+.common_text h3{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: #555555;
+    margin-bottom: 25px ;
+}
+.common_text p{
+    color: #8c8c8c;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 40px;
+    padding: 0 200px;
+}
+.idea_img img{
+    width: 100%;
+    display: block;
+}
+/* ==========idea part ends=========  */
+
+/* ==========Purchase part starts=========  */
+#purchase{
+    padding: 50px 0px;
+    background: linear-gradient(to right, #211b19, #4e3427);
+}
+.purchase_text{
+    float: left;
+    width: 770px;
+}
+.purchase_btn{
+    float: right;
+    width: 400px;
+    text-align: right;
+}
+.purchase_text h3{
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.purchase_text>h3>span:hover{
+    color: #bfab93;
+    transition: 0.4s;
+}
+.purchase_text p{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: #615855;
+}
+
+.purchase_btn a{
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    background: #998675;
+    padding: 20px 30px;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+
+
+}
+/* ==========Purchase part ends=========  */
+#projects{
+    padding: 80px 0;
+}
+
+.filter_menu ul{
+ display: flex;
+ justify-content: center;
+
+}
+.filter_menu ul li a{
+    color: #8c8c8c;
+    padding: 10px 25px;
+    margin: 0px 5px;
+    border: 1px solid #ebebeb;
+    border-bottom: 0px !important;
+    border-radius: 5px;
+}
+.filter_menu ul li a:hover{
+    background-color: #998675;
+    color: #fff;
+}
+
+/* ==========projects part starts=========  */
+
+/* ==========projects part ends=========  */
+
+/* ==========projects part starts=========  */
+
+/* ==========projects part ends=========  */
+
+/* ==========projects part starts=========  */
+
+/* ==========projects part ends=========  */
+
+/* ==========projects part starts=========  */
+
+/* ==========projects part ends=========  */
+
+
